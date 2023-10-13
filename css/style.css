@@ -1,3 +1,21 @@
+:root{
+    --ms_color-header-tfooter:#3a546d;
+    --ms_color-section-big:#1abc9c;
+    --ms_color-bfooter:#2c3e50;
+}
+
 /*COMMON*/
+.ms_bold{
+    font-weight: bolder;
+}
 /*/COMMON*/
 
+/*HEADER*/
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--ms_color-header-tfooter);
+    /*DEBUG*/
+    border: 2px solid black;
+}
+/*/HEADER*/
