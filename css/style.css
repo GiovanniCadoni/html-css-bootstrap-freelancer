@@ -18,6 +18,16 @@
 .ms_color-green{
     background-color: var(--ms_color-section-big);
 }
+
+.ms_custom-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    aspect-ratio: 1;
+    border:1px solid white;
+    border-radius: 100%;
+}
 /*/COMMON*/
 
 /*HEADER*/
@@ -43,7 +53,24 @@ header{
 .ms_about{
     width: 100%;
     background-color: var(--ms_color-section-big);
-    /*DEBUG*/
-    min-height: 400px;
 }
 /*/ABOUT*/
+
+/*FOOTER*/
+.ms_top-footer{
+    width: 100%;
+    background-color: var(--ms_color-header-tfooter);
+    /*DEBUG*/
+    min-height: 100px;
+}
+
+.ms_bottom-footer{
+    width: 100%;
+    background-color: var(--ms_color-bfooter);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--ms_color-section-big);
+}
+/*/FOOTER*/
