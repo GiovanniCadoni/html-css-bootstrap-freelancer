@@ -8,6 +8,11 @@
 .ms_bold{
     font-weight: bolder;
 }
+
+.ms_hr-custom{
+    width: 100px;
+    border: 3px solid;
+}
 /*/COMMON*/
 
 /*HEADER*/
@@ -15,7 +20,16 @@ header{
     width: 100%;
     height: 80px;
     background-color: var(--ms_color-header-tfooter);
-    /*DEBUG*/
-    border: 2px solid black;
 }
 /*/HEADER*/
+
+/*HERO*/
+.ms_hero{
+    width: 100%;
+    background-color: var(--ms_color-section-big);
+}
+
+.ms_img-avatar{
+    height: 280px;
+}
+/*/HERO*/
