@@ -34,3 +34,12 @@ header{
     height: 280px;
 }
 /*/HERO*/
+
+/*ABOUT*/
+.ms_about{
+    width: 100%;
+    background-color: var(--ms_color-section-big);
+    /*DEBUG*/
+    min-height: 400px;
+}
+/*/ABOUT*/
